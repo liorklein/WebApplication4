@@ -35,9 +35,9 @@ namespace TaskTesteing
         static async Task DoWork1()
         {
             var start = DateTime.Now;
-            var t1 = DoTaskAsync("t1.1", 3000,1);
-            var t2 = DoTaskAsync("t1.2", 2000,1);
-            var t3 = DoTaskAsync("t1.3", 1000,1);
+            var t1 = DoTaskAsync("t1.1", 4000,1);
+            var t2 = DoTaskAsync("t1.2", 3000,1);
+            var t3 = DoTaskAsync("t1.3", 3000,1);
 
             await t1; await t2; await t3;
 
